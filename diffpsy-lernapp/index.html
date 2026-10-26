@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="theme-color" content="#1b1f3b">
+<title>DiffPsy Lernapp</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">🧠 DiffPsy</span>
+    <span class="streak-pill" id="streakPill">🔥 0</span>
+  </div>
+</header>
+
+<main id="app" class="app"></main>
+
+<nav class="bottomnav" id="bottomnav">
+  <button class="navbtn" data-route="dashboard">
+    <span class="navicon">📊</span><span>Stand</span>
+  </button>
+  <button class="navbtn" data-route="lernen">
+    <span class="navicon">📘</span><span>Lernen</span>
+  </button>
+  <button class="navbtn" data-route="karteikarten">
+    <span class="navicon">🃏</span><span>Karten</span>
+  </button>
+  <button class="navbtn" data-route="klausur">
+    <span class="navicon">📝</span><span>Klausur</span>
+  </button>
+</nav>
+
+<script src="./data.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
